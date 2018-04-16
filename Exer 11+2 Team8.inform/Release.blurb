@@ -1,0 +1,38 @@
+! Blurb file created by Inform build 6M62
+
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\Karl\Google Drive\Siemens & Ostfalia\Semester & Aufgaben\SS18\CS-Kompetenzen\Inform7\Exer 11+2 Team8.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "C:\Users\Karl\Google Drive\Siemens & Ostfalia\Semester & Aufgaben\SS18\CS-Kompetenzen\Inform7\Exer 11+2 Team8.inform"
+release to "C:\Users\Karl\Google Drive\Siemens & Ostfalia\Semester & Aufgaben\SS18\CS-Kompetenzen\Inform7\Exer 11+2 Team8.materials\Release"
+
+! Blorb instructions
+
+storyfile leafname "EXER_2+11.gblorb"
+storyfile "C:\Users\Karl\Google Drive\Siemens & Ostfalia\Semester & Aufgaben\SS18\CS-Kompetenzen\Inform7\Exer 11+2 Team8.inform\Build\output.ulx" include
+ifiction "C:\Users\Karl\Google Drive\Siemens & Ostfalia\Semester & Aufgaben\SS18\CS-Kompetenzen\Inform7\Exer 11+2 Team8.inform\Metadata.iFiction" include
+cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "ABA0A846-D701-43FA-8285-DF71557641AE"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2018"
+placeholder [TITLE] = "EXER_2+11"
+placeholder [AUTHOR] = "Team8"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc405.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc406.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
