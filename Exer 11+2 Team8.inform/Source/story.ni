@@ -1379,12 +1379,12 @@ Parkplatz01 is a room in Draußen with printed name "Parkplatz" and the descript
 
 Parkplatz02 is a room in Draußen with printed name "Parkplatz" and the description "Du befindest dich auf dem Parkplatz vorm Exer 11. Im Osten siehst du einen Gehweg der Richtung Exer 2 führt."
 	North of Parkplatz02 is Raum11/1.
-	East of Parkplatz02 is Gehweg.
+	[East of Parkplatz02 is Gehweg.]
 	West of Parkplatz02 is Parkplatz01.
 
 Gehweg is a room in Draußen. "Du stehst auf dem Gehweg. Von hier aus siehst du im Osten schon den Torbogen."
 	North of Gehweg is Torbogen.
-	West of Gehweg is Parkplatz02.
+	[West of Gehweg is Parkplatz02.]
 
 
 	South of Torbogen is Gehweg.
@@ -1407,6 +1407,11 @@ Hinterhof04 is a room in Draußen with printed name "Hinterhof" and the descript
 	East of Hinterhof04 is Hinterhof03.
 	South of Hinterhof04 is Raum11/4.
 
+Gehweg02 is a room in Draußen. "Du stehst auf einem Gehweg. Im Osten siehst du einen Gehweg zum Exer 2. Im Norden ist ein Weg zum Hinterhof. Im Westen ist der Parkplatz."
+	Gehweg02 is east of Parkplatz02.
+	Gehweg02 is west of Gehweg.
 
-
+Gehweg03 is a room in Draußen.  "Du stehst auf einem Gehweg. Im Süden ist ein Geweg. Im Westen ist der Hinterhof."
+	Gehweg03 is north of Gehweg02.
+	Gehweg03 is east of Hinterhof01.
 
