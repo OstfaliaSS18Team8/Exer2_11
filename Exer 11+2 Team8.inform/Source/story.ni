@@ -16,7 +16,7 @@ Draußen is a region.
 
 [>>>>ERDGESCHOSS OST<<<<]
 
-
+The Player is in Gehweg.
 
 Torbogen is a room in Draußen.
 
@@ -886,7 +886,7 @@ The description of Raum134 is "Du bist im Raum 134. Im Norden siehst du einen Fl
 FlurOGO01 is a room in OG.
 The printed name of FlurOGO01 is "Flur".
 FlurOGO01 is east of Raum136.
-The description of FlurOGO01 is "Du bist in Flur. Im Norden siehst du Raum 137. Im Osten siehst du einen Flur. Im Süden siehst du den Poolraum 132.".
+The description of FlurOGO01 is "Du bist in Flur. Im Norden siehst du Raum 137. Im Osten siehst du einen Flur. Im Süden siehst du den Poolraum 132. Im Westen siehst du das Kaminzimmer".
 
 FlurOGO02 is a room in OG.
 The printed name of FlurOGO02 is "Flur".
@@ -1382,7 +1382,7 @@ Parkplatz02 is a room in Draußen with printed name "Parkplatz" and the descript
 	[East of Parkplatz02 is Gehweg.]
 	West of Parkplatz02 is Parkplatz01.
 
-Gehweg is a room in Draußen. "Du stehst auf dem Gehweg. Von hier aus siehst du im Osten schon den Torbogen."
+Gehweg is a room in Draußen. "Du stehst auf dem Gehweg. Von hier aus siehst du im Norden schon den Torbogen."
 	North of Gehweg is Torbogen.
 	[West of Gehweg is Parkplatz02.]
 
@@ -1414,4 +1414,51 @@ Gehweg02 is a room in Draußen. "Du stehst auf einem Gehweg. Im Osten siehst du 
 Gehweg03 is a room in Draußen.  "Du stehst auf einem Gehweg. Im Süden ist ein Geweg. Im Westen ist der Hinterhof."
 	Gehweg03 is north of Gehweg02.
 	Gehweg03 is east of Hinterhof01.
+	
 
+
+
+Section Geist
+
+Geist is a person.
+The description of Geist is "Ein Geist der die Fakultät Informatik heimsucht.".
+Geist is in Torbogen.
+
+Geist_Zähler is a number that varies.
+Geist_Zähler is 0.
+
+Verfolgung is a truth state that varies.
+Verfolgung is false.
+
+
+[Überprüfung ob der Spieler dem Geist begegnet]
+Every turn:
+	If Player is in Torbogen:
+		If Verfolgung is false:
+			Now Verfolgung is true;
+			Say "Du bist einem Geist begegnet der dich nun verfolgt.".
+			
+
+[Überprüfung ob der Verfolgte Spieler den Raum gewechselt hat bzw. Zähler für die Züge in einem Raum mit dem Geist]
+Every turn:
+	If Verfolgung is true:
+		If Geist is in Location of Player:
+			If Geist_Zähler is 1:
+				Say "Geist: 'Buuuh'";
+				Now Geist_Zähler is 0;
+			Otherwise:
+				Now Geist_Zähler is 1;
+		Otherwise:
+			Move Geist to the Location of Player;
+			Say "Der Geist ist dir in den nächsten Raum gefolgt.";
+			Now Geist_Zähler is 0;
+			
+[Überprüfung ob der Spieler den Geist wieder im Kaminzimmer loswird]
+Every turn:
+	If the Location of the Player is Raum136:
+		If Verfolgung is true:
+			Say "Der Geist verschwindet durch den Kamin. Wo er jetzt wohl seien mag?";
+			Move Geist to Torbogen;
+			now Verfolgung is false;
+			now Geist_Zähler is 0;
+			
