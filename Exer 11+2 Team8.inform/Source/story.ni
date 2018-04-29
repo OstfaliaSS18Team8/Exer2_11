@@ -16,7 +16,7 @@ Draußen is a region.
 
 [>>>>ERDGESCHOSS OST<<<<]
 
-The Player is in Gehweg.
+You are in the Gehweg.
 
 Torbogen is a room in Draußen.
 
@@ -85,10 +85,10 @@ WCEGOW is north of FlurEGO02
 FlurEGO03 is a room.
 FlurEGO03 is in EG.
 FlurEGO03 has a printed name "Flur".
-"Du bist im Flur.
+["Du bist im Flur.
 Im Norden siehst du den Fahrstuhl.
 Im Osten und Westen geht der Flur weiter.
-Im Süden siehst du den Raum 029."
+Im Süden siehst du den Raum 029."]
 
 FlurEGO03 is east of FlurEGO02.
 
@@ -118,14 +118,14 @@ Im Westen siehst du Raum 029"
 
 Raum028b is east of Raum029.
 
-FahrstuhlEG is a room.
+[FahrstuhlEG is a room.
 FahrstuhlEG is in EG.
 FahrstuhlEG has a printed name "Fahrstuhl".
 "Du bist im Fahrstuhl.
 Im Norden siehst du den barrierefreien Zugang zum Fahrstuhl.
-Im Süden ist der Flur."
+Im Süden ist der Flur."]
 
-FahrstuhlEG is north of FlurEGO03.
+[FahrstuhlEG is north of FlurEGO03.]
 
 bZugang is a room.
 bZugang is in EG.
@@ -194,7 +194,6 @@ Raum024 has a printed name "Raum 024".
 "Du bist in Raum 024.
 Im Süden ist der Flur."
 
-Raum024 is north of FlurEGO05.
 
 
 
@@ -217,7 +216,7 @@ Raum025 has a printed name "Raum 025".
 "Du bist in Raum 025.
 Im Süden ist der Flur."
 
-Raum025 is north of FlurEGO06.
+Raum025 is north of TuerR25.
 
 Raum028a is a room.
 Raum028a is in EG.
@@ -225,7 +224,6 @@ Raum028a has a printed name "Raum 028a".
 "Du bist in Raum 028a.
 Im Norden ist der Flur."
 
-Raum028a is south of FlurEGO06.
 
 
 
@@ -849,7 +847,7 @@ The description of Raum158 is "Du bist im Raum 158. Im Süden siehst du einen Fl
 Raum152 is room in OG.
 The printed name of Raum152 is "Raum 152".
 Raum152 is south of FlurOGW04.
-The description of Raum152 is "Du bist im Hörsaal 152. Im Norden siehst du einen Flur. Im Osten siehst du das  Labor 151".
+The description of Raum152 is "Du bist im Hörsaal 152. Im Norden siehst du einen Flur. Im Osten siehst du das  Labor 151. Du erblickst einen Tisch, an dem du wackeln könntest.".
 
 WCOGWW is room in OG.
 The printed name of WCOGWW is "WC (w)".
@@ -886,7 +884,7 @@ The description of Raum134 is "Du bist im Raum 134. Im Norden siehst du einen Fl
 FlurOGO01 is a room in OG.
 The printed name of FlurOGO01 is "Flur".
 FlurOGO01 is east of Raum136.
-The description of FlurOGO01 is "Du bist in Flur. Im Norden siehst du Raum 137. Im Osten siehst du einen Flur. Im Süden siehst du den Poolraum 132. Im Westen siehst du das Kaminzimmer".
+The description of FlurOGO01 is "Du bist in Flur. Im Norden siehst du Raum 137. Im Osten siehst du einen Flur. Im Süden siehst du den Poolraum 132.".
 
 FlurOGO02 is a room in OG.
 The printed name of FlurOGO02 is "Flur".
@@ -901,7 +899,7 @@ The description of FlurOGO03 is "Du bist in Flur. Im Norden siehst du ein Herren
 FlurOGO04 is a room in OG.
 The printed name of FlurOGO04 is "Flur".
 FlurOGO04 is east of FlurOGO03.
-The description of FlurOGO04 is "Du bist in Flur. Im Norden siehst du einen Fahrsthul. Im Osten und Westen siehst du einen Flur.".
+[The description of FlurOGO04 is "Du bist in Flur. Im Norden siehst du einen Fahrsthul. Im Osten und Westen siehst du einen Flur.".]
 
 FlurOGO05 is a room in OG.
 The printed name of FlurOGO05 is "Flur".
@@ -962,8 +960,8 @@ The description of WCOGOM is "Du bist im Herren WC. Im Süden siehst du einen Fl
 
 FahrstuhlOG is room in OG.
 The printed name of FahrstuhlOG is "Fahrstuhl".
-FahrstuhlOG is north of FlurOGO04.
-The description of FahrstuhlOG is "Du bist im Fahrstuhl. Im Süden siehst du einen Flur.".
+[FahrstuhlOG is north of FlurOGO04.]
+[The description of FahrstuhlOG is "Du bist im Fahrstuhl. Im Süden siehst du einen Flur.".]
 
 WCOGOB is room in OG.
 The printed name of WCOGOB is "WC (B)".
@@ -1215,8 +1213,8 @@ TreppeDGS2 is north of FlurDGS02.
 TreppeDGS2 is a room in DG with printed name "Treppe".  "Diese Treppe führt hinunter ins erste Obergeschoss.".
 TreppeOGO01 is below TreppeDGS2.
 
-FahrstuhlDG is east of FlurDGS02.
-FahrstuhlDG is a room in DG with printed name "Fahrstuhl".  "Du bist im Fahrstuhl. Dieser hat noch keine Funktionalität erhalten. Im Osten siehst du den Hörsaal 223 und im Westen einen Flur.".
+[FahrstuhlDG is east of FlurDGS02.]
+[FahrstuhlDG is a room in DG with printed name "Fahrstuhl".  "Du bist im Fahrstuhl. Dieser hat noch keine Funktionalität erhalten. Im Osten siehst du den Hörsaal 223 und im Westen einen Flur.".]
 
 Raum223 is east of FahrstuhlDG.
 Raum223 is a room in DG with printed name "Hörsaal 223".  "Du bist im Hörsaal 223. Einige Studenten sitzen in Gruppen zusammen und arbeiten. Im Osten siehst du einen Flur und im Westen einen Fahrstuhl.".
@@ -1382,7 +1380,7 @@ Parkplatz02 is a room in Draußen with printed name "Parkplatz" and the descript
 	[East of Parkplatz02 is Gehweg.]
 	West of Parkplatz02 is Parkplatz01.
 
-Gehweg is a room in Draußen. "Du stehst auf dem Gehweg. Von hier aus siehst du im Norden schon den Torbogen."
+Gehweg is a room in Draußen. "Du stehst auf dem Gehweg. Von hier aus siehst du im Osten schon den Torbogen."
 	North of Gehweg is Torbogen.
 	[West of Gehweg is Parkplatz02.]
 
@@ -1414,7 +1412,254 @@ Gehweg02 is a room in Draußen. "Du stehst auf einem Gehweg. Im Osten siehst du 
 Gehweg03 is a room in Draußen.  "Du stehst auf einem Gehweg. Im Süden ist ein Geweg. Im Westen ist der Hinterhof."
 	Gehweg03 is north of Gehweg02.
 	Gehweg03 is east of Hinterhof01.
+
+
+
+
+[-----------------------------------------------------------------------------------------------------------------------------------]
+[-----------------------------------------------------------------------------------------------------------------------------------]
+[-----------------------------------------------------------------------------------------------------------------------------------]
+[-----------------------------------------------------------------------------------------------------------------------------------]
+[-----------------------------------------------------------------------------------------------------------------------------------]
+[-----------------------------------------------------------------------------------------------------------------------------------]
+[-----------------------------------------------------------------------------------------------------------------------------------]
+[-----------------------------------------------------------------------------------------------------------------------------------]
+[-----------------------------------------------------------------------------------------------------------------------------------]
+[-----------------------------------------------------------------------------------------------------------------------------------]
+
+
+
+Section Türen
+
+
+
+
+[Spind und Schluessel]
+Spind is a closed openable not portable container in Raum136.
+Schlüssel is a kind of thing.
+In Spind is Schluessel.
+Schluessel is a Schlüssel.
+
+[R24 fertig]
+TuerR24 is a locked Door. 
+Raum024 is north of TuerR24.
+FlurEGO05 is south of TuerR24.
+		
+
+After going to FlurEGO05:
+		if the player is carrying Schluessel
+		begin;
+			Now TuerR24 is not locked;
+			continue the action;
+		otherwise;
+			continue the action;
+		end if.
+		
+[R25 und R132]
+TuerR25 is a locked door.
+Raum025 is north of TuerR25.
+FlurEGO06 is south of TuerR25.
+
+TuerR132 is a locked door.
+Raum132 is below TuerR132.
+LernbereichDG is above TuerR132.
+
+Panel is a kind of thing.
+Panel is not portable.
+
+Panel1 is a Panel.
+Panel1 is in FlurEGO06.
+
+Schlüsselauflage is a Panel.
+Schlüsselauflage is in Raum132.
+
+Schluesselauflage is a Panel.
+Schluesselauflage is in LernbereichDG
+
+Legen is an action applying to two things.
+Benutzen is an action applying to one thing.
+
+Understand "lege [Schlüssel] auf [Panel]" as legen.
+Understand "benutze [Schlüssel]" as benutzen.
+
+Instead of benutzen:
+	if the player is in FlurEGO06
+	begin;
+		Now TuerR25 is not locked;
+		Now TuerR25 is open;
+		say "Die Tür ist jetzt geöffnet";
+		continue the action;
+	otherwise if the player is in Raum132 or the player is in LernbereichDG;
+		Now TuerR132 is not locked;
+		Now TuerR132 is open;
+		say "Die Tür ist jetzt geöffnet";
+		continue the action;
+	otherwise;
+		continue the action;
+	end if.
 	
+Instead of legen:
+	if the player is in FlurEGO06
+	begin;
+		Now TuerR25 is not locked;
+		Now TuerR25 is open;
+		say "Die Tür ist jetzt geöffnet";
+		continue the action;
+	otherwise if the player is in Raum132 or the player is in LernbereichDG;
+		Now TuerR132 is not locked;
+		Now TuerR132 is open;
+		say "Die Tür ist jetzt geöffnet";
+		continue the action;
+	otherwise;
+		continue the action;
+	end if.
+
+[R28 fertig]
+TuerR28 is a locked closed door.
+TuerR28 is south of FlurEGO06.
+TuerR28 is north of Raum028a.
+
+Knopf1 is a not portable thing.
+Knopf1 is in FlurEGO06.
+
+Knopf2 is a not portable  thing.
+Knopf2 is in Raum028a.
+
+instead of pushing Knopf1:
+	Now TuerR28 is not locked;
+	Say "Die Tür ist nun nicht mehr verschlossen.".
+
+instead of pushing Knopf2:
+	Now TuerR28 is not locked;
+	Say "Die Tür ist nun nicht mehr verschlossen.".
+	
+After  going from Raum028a:
+	Now TuerR28 is closed;
+	Now TuerR28 is  locked;
+	continue the action.
+
+After going from FlurEGO06:
+	Now TuerR28 is closed;
+	Now TuerR28 is locked;
+	continue the action.
+	
+
+
+Section Ball
+
+A ball is a thing with the description "Ein Ball.  Der Ball kann in all Himmelsrichtungen getreten werden. Der Ball rollt daraufhin, wenn möglich, einen Raum weiter. Nutze push ball n/e/s/w."
+The ball is in the Raum136. "Du siehst einen Ball"
+
+
+Understand "push ball n/e/s/w/north/east/south/west" as "[ball-push-dir]".
+
+After reading a command:
+	if the player's command matches "[ball-push-dir]" and the player is in the location of the ball:	
+		if the player's command includes "n/north":
+			if the room north from the location is nothing:
+				say "Der Ball ist von der nördlichen Wand zurückgeprallt.";
+				stop the action;
+			otherwise:
+				if the door north of the location of the ball is open or the door north of the location is nothing:
+					now the ball is in the room north from the location of the player;
+					say "Der Ball wurde einen Raum nach Norden getreten.";
+					stop the action;			
+				if the door north from the location is closed:
+					say "Der Ball ist von der nördlichen Tür zurückgeprallt.";
+					stop the action;			
+		if the player's command includes "e/east":
+			if the room east from the location is nothing:
+				say "Der Ball ist von der östlichen Wand zurückgeprallt.";
+				stop the action;
+			otherwise:
+				if the door east of the location of the ball is open or the door east of the location is nothing:
+					now the ball is in the room east from the location of the player;
+					say "Der Ball wurde einen Raum nach Osten getreten.";
+					stop the action;			
+				if the door east from the location is closed:
+					say "Der Ball ist von der östlichen Tür zurückgeprallt.";
+					stop the action;	
+		if the player's command includes "s/south":
+			if the room south from the location is nothing:
+				say "Der Ball ist von der südlichen Wand zurückgeprallt.";
+				stop the action;
+			otherwise:
+				if the door south of the location of the ball is open or the door south of the location is nothing:
+					now the ball is in the room south from the location of the player;
+					say "Der Ball wurde einen Raum nach Süden getreten.";
+					stop the action;			
+				if the door south from the location is closed:
+					say "Der Ball ist von der südlich Tür zurückgeprallt.";
+					stop the action;
+		if the player's command includes "w/west":
+			if the room west from the location is nothing:
+				say "Der Ball ist von der westlichen Wand zurückgeprallt.";
+				stop the action;
+			otherwise:
+				if the door west of the location of the ball is open or the door west of the location is nothing:
+					now the ball is in the room west from the location of the player;
+					say "Der Ball wurde einen Raum nach Westen getreten.";
+					stop the action;			
+				if the door west from the location is closed:
+					say "Der Ball ist von der westlichen Tür zurückgeprallt.";
+					stop the action;
+
+
+
+Before reading a command:
+	if the ball is in TreppeOGO01:
+		now the ball is in TreppeEGO01;  [Geht so etwas?: now the ball is in the room below the location of the ball;]
+		say "Der Ball ist in einem Treppenhaus die Treppe runtergerollt";
+	if the ball is in TreppeOGO02:
+		now the ball is in TreppeEGO02;
+		say "Der Ball ist in einem Treppenhaus die Treppe runtergerollt";
+	if the ball is in TreppeOGW01:
+		now the ball is in TreppeEGW01;
+		say "Der Ball ist in einem Treppenhaus die Treppe runtergerollt";
+	if the ball is in TreppeOGW02:
+		now the ball is in TreppeEGW02;
+		say "Der Ball ist in einem Treppenhaus die Treppe runtergerollt";
+	if the ball is in TreppeDGS1:
+		now the ball is in TreppeOGW01;
+		say "Der Ball ist in einem Treppenhaus die Treppe runtergerollt";
+	if the ball is in TreppeDGS2:
+		now the ball is in TreppeOGO01; 
+		say "Der Ball ist in einem Treppenhaus die Treppe runtergerollt";
+	if the ball is in TreppeDGO01:
+		now the ball is in TreppeOGO02;
+		say "Der Ball ist in einem Treppenhaus die Treppe runtergerollt";
+		
+
+
+
+
+
+Section Counter
+
+EGcnt is a number that varies.
+OGcnt is a number that varies.
+DGcnt is a number that varies.
+Draussencnt is a number that varies.
+Exer11cnt is a number that varies.
+
+Every turn:
+	if player is in EG:
+		increment EGcnt;
+		say "Züge im EG [EGcnt]";
+	if player is in OG:
+		increment OGcnt;
+		say "Züge im OG [OGcnt]";
+	if player is in DG:
+		increment DGcnt;
+		say "Züge im DG [DGcnt]";
+	if player is in Draußen:
+		increment Draussencnt;
+		say "Züge draußen [Draussencnt]";
+	if player is in Exer11:
+		increment Exer11cnt;
+		say "Züge im Exer11[Exer11cnt]";
+
+
 
 
 
@@ -1462,3 +1707,267 @@ Every turn:
 			now Verfolgung is false;
 			now Geist_Zähler is 0;
 			
+
+
+
+
+
+
+Section GummibärchenpackungenAufTisch
+
+[Definition Tisch]
+A Tisch is an object in Raum152.
+The Tisch is fixed in place.
+
+[Globale Variablen]
+RandomNumber is a number variable.
+RandomNumber is 0.
+
+TakenCounter is a number variable.
+TakenCounter is 0.
+
+[Definition Wackeln]
+Rütteln is an action applying to one object.
+Understand "wackeln [thing]" as rütteln.
+
+Check Rütteln:
+	If the noun is not a Tisch, say "Du kannst nur an einem Tisch rütteln oder wackeln." instead.
+Instead of Rütteln the Tisch:
+	if TakenCounter is 6:
+		Say "Es befinden sich keine Gummibärchen mehr auf dem Tisch.";
+		stop the action;
+	otherwise:
+		Now RandomNumber is a random number from 1 to 6;
+		If RandomNumber is 1:
+			if GBP_Weiß_Takable is 0:
+				Now GBP_Weiß_Takable is 1;
+				Now TakenCounter is TakenCounter plus 1;
+				Say "Die Weiß_Gummibärchenpackung liegt nun auf dem Boden und kann aufgehoben werden.";
+			Stop the action;			
+		otherwise if RandomNumber is 2:
+			if GBP_Rot_Takable is 0:
+				Now GBP_Rot_Takable is 1;
+				Now TakenCounter is TakenCounter plus 1;
+				Say "Die Rot_Gummibärchenpackung  liegt nun auf dem Boden und kann aufgehoben werden.";
+			Stop the action;
+		otherwise if RandomNumber is 3:
+			if GBP_Orange_Takable is 0:
+				Now GBP_Orange_Takable is 1;
+				Now TakenCounter is TakenCounter plus 1;
+				Say "Die Orange_Gummibärchenpackung liegt nun auf dem Boden und kann aufgehoben werden.";
+			Stop the action;
+		otherwise if RandomNumber is 4:
+			if GBP_Rosa_Takable is 0:
+				Now GBP_Rosa_Takable is 1;
+				Now TakenCounter is TakenCounter plus 1;
+				Say "Die Rosa_Gummibärchenpackung liegt nun auf dem Boden und kann aufgehoben werden.";
+			Stop the action;
+		otherwise if RandomNumber is 5:
+			if GBP_Grün_Takable is 0:
+				Now GBP_Grün_Takable is 1;
+				Now TakenCounter is TakenCounter plus 1;
+				Say "Die Grün_Gummibärchenpackung liegt nun auf dem Boden und kann aufgehoben werden.";
+			Stop the action;
+		otherwise if RandomNumber is 6:
+			if GBP_Gelb_Takable is 0:
+				Now GBP_Gelb_Takable is 1;
+				Now TakenCounter is TakenCounter plus 1;
+				Say "Die Gelb_Gummibärchenpackung liegt nun auf dem Boden und kann aufgehoben werden.";
+			Stop the action;
+					
+[Definition Gummibärchenpackungen]
+The Weiß_Gummibärchenpackung is on the Tisch.
+GBP_Weiß_Number is a number variable. GBP_Weiß_Number is 1.
+GBP_Weiß_Takable is a number variable.  GBP_Weiß_Takable is 0.
+Instead of taking Weiß_Gummibärchenpackung:
+	if GBP_Weiß_Takable is 1:		
+		Continue the action;				
+	otherwise if GBP_Weiß_Takable is 0:
+		Say "Du kannst diese Packung nicht aufheben";
+		Stop the action;  
+
+The Rot_Gummibärchenpackung is on the Tisch.
+GBP_Rot_Number is a number variable. GBP_Rot_Number is 2.
+GBP_Rot_Takable is a number variable.  GBP_Rot_Takable is 0.
+Instead of taking Rot_Gummibärchenpackung:
+	if GBP_Rot_Takable is 1:		
+		Continue the action;				
+	otherwise if GBP_Rot_Takable is 0:
+		Say "Du kannst diese Packung nicht aufheben";
+		Stop the action;  
+	
+The Orange_Gummibärchenpackung is on the Tisch.
+GBP_Orange_Number is a number variable. GBP_Orange_Number is 3.
+GBP_Orange_Takable is a number variable.  GBP_Orange_Takable is 0.
+Instead of taking Orange_Gummibärchenpackung:
+	if GBP_Orange_Takable is 1:		
+		Continue the action;				
+	otherwise if GBP_Orange_Takable is 0:
+		Say "Du kannst diese Packung nicht aufheben";
+		Stop the action;  
+		
+The Rosa_Gummibärchenpackung is on the Tisch.
+GBP_Rosa_Number is a number variable. GBP_Rosa_Number is 4.
+GBP_Rosa_Takable is a number variable.  GBP_Rosa_Takable is 0.
+Instead of taking Rosa_Gummibärchenpackung:
+	if GBP_Rosa_Takable is 1:		
+		Continue the action;				
+	otherwise if GBP_Rosa_Takable is 0:
+		Say "Du kannst diese Packung nicht aufheben";
+		Stop the action;  
+
+The Grün_Gummibärchenpackung is on the Tisch.
+GBP_Grün_Number is a number variable. GBP_Grün_Number is 5.
+GBP_Grün_Takable is a number variable.  GBP_Grün_Takable is 0.
+Instead of taking Grün_Gummibärchenpackung:
+	if GBP_Grün_Takable is 1:		
+		Continue the action;				
+	otherwise if GBP_Grün_Takable is 0:
+		Say "Du kannst diese Packung nicht aufheben";
+		Stop the action;  
+		
+The Gelb_Gummibärchenpackung is on the Tisch.
+GBP_Gelb_Number is a number variable. GBP_Gelb_Number is 6.
+GBP_Gelb_Takable is a number variable.  GBP_Gelb_Takable is 0.
+Instead of taking Gelb_Gummibärchenpackung:
+	if GBP_Gelb_Takable is 1:		
+		Continue the action;				
+	otherwise if GBP_Gelb_Takable is 0:
+		Say "Du kannst diese Packung nicht aufheben";
+		Stop the action;
+
+
+
+Section Fahrstuhl
+
+
+[::::::::::::::::::::::::::Fahrstuhl EG:::::::::::::::::::::::::::::::]
+
+FlurEGO03 is a room with printed name "Flur".
+	"Du bist im Flur.
+	Im Norden siehst du den Fahrstuhl.
+	Im Osten und Westen geht der Flur weiter.
+	Im Süden siehst du den Raum 029."
+
+
+FahrstuhlEG is a room.
+FahrstuhlEG is in EG.
+FahrstuhlEG has a printed name "Fahrstuhl".
+"Im Norden siehst du den Fahrstuhl und den barrierefreien Zugang zum Fahrstuhl.
+Im Süden ist der Flur."
+Instead of pushing LiftKnopfEG: 
+	move Fahrstuhl to FahrstuhlEG;
+	Now LiftTür00 is closed;
+	Now LiftTür01 is closed;
+	Now LiftTür02 is open;
+	say "Die Fahrstuhl Tür ist offen."
+	
+[::::::::::::::::::::::::::Fahrstuhl OG::::::::::::::::::::::::::]
+
+
+FlurOGO04 is a room in OG.
+The printed name of FlurOGO04 is "Flur".
+FlurOGO04 is east of FlurOGO03.
+The description of FlurOGO04 is "Du bist in Flur. Im Norden siehst du einen Fahrstuhl. 
+Im Osten und Westen siehst du einen Flur.".
+
+FahrstuhlOG is room in OG.
+The printed name of FahrstuhlOG is "Fahrstuhl".
+The description of FahrstuhlOG is "Im Süden siehst du einen Flur.".
+Instead of pushing LiftKnopfOG: 
+	move Fahrstuhl to FahrstuhlOG;
+	Now LiftTür00 is closed;
+	Now LiftTür01 is open;
+	Now LiftTür02 is closed;
+	say "Die Fahrstuhl Tür ist offen."
+
+	
+[::::::::::::::::::::::::::Fahrstuhl DG::::::::::::::::::::::::::]
+
+FahrstuhlFlurDG is east of FlurDGS02.
+FahrstuhlFlurDG is a room in DG with printed name "Flur".
+	"Du bist im Flur.
+	Im Norden siehst du den Fahrstuhl.
+	Im Westen geht es weiter im Flur.
+	Im Osten ist Raum 223."
+
+FahrstuhlDG is a room in DG with printed name "Fahrstuhl".
+	"Im Süden siehst du den Flur.
+	Im Norden siehst du den Fahrstuhl."
+Instead of pushing LiftKnopfDG: 
+	move Fahrstuhl to FahrstuhlDG;
+	Now LiftTür00 is open;
+	Now LiftTür01 is closed;
+	Now LiftTür02 is closed;
+	say "Die Fahrstuhl Tür ist offen."
+
+[:::::::::::::::::::::::::::::::::::::::::::::::::::::KNÖPFE::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]
+
+The button LiftKnopfDG is a thing with printed name "Liftknopf DG".
+	It is not portable.
+	It is in FahrstuhlDG.
+
+The button LiftKnopfOG is a thing with printed name "Liftknopf OG". 
+	It is not portable. 
+	It is in FlurOGO04.
+	
+The button LiftKnopfEG is a thing with printed name "Liftknopf EG". 
+	It is not portable. 
+	It is in FlurEGO03.
+	
+[:::::::::::::::::::::::::::::::::::::::::::::::::::::_LIFT_:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::]
+
+Fahrstuhl is a container in the FahrstuhlEG.
+	It is enterable, transparent and not portable.
+	"Wenn du den Fahrstuhl betritts, dann kannst du zum Erdgeschoss, Obergeschoss oder Dachgeschoss fahren."
+	
+The DG button is a thing in the Fahrstuhl.
+	The description is "Knopf zum Dachgeschoss."
+The OG button is a thing in the Fahrstuhl. 
+	The description is "Knopf zum Obergeschoss."
+The EG button is a thing in the Fahrstuhl. 
+	The description is "Knopf zum Erdgeschoss."
+
+Instead of pushing the DG button when the player is in the Fahrstuhl:
+	now the Fahrstuhl is in FahrstuhlDG;
+	now the player is in Fahrstuhl in FahrstuhlDG;
+	now the LiftTür00 is open;
+	now the LiftTür01 is closed;
+	now the LiftTür02 is closed;
+	say "Du bist im Dachgeschoss."
+	
+Instead of pushing the OG button when the player is in the Fahrstuhl:
+	now the Fahrstuhl is in FahrstuhlOG;
+	now the player is in Fahrstuhl in FahrstuhlOG;
+	now the LiftTür00 is closed;
+	now the LiftTür01 is open;
+	now the LiftTür02 is closed;
+	say "Du bist im Obergeschoss."
+	
+Instead of pushing the EG button when the player is in the Fahrstuhl:
+	now the Fahrstuhl is in FahrstuhlEG;
+	now the player is in Fahrstuhl in FahrstuhlEG;
+	now the LiftTür00 is closed;
+	now the LiftTür01 is closed;
+	now the LiftTür02 is open;
+	say "Du bist im Erdgeschoss."
+	
+[::::::::::::::::::::::::::::::::::::::::::::TÜREN::::::::::::::::::::::::::::::::::::::::::::::::::::::::]
+
+
+LiftTür00 is an unopenable closed door with printed name "Fahrstuhl Tür." 
+	South of FahrstuhlDG is the LiftTür00.
+	North of FahrstuhlFlurDG is LiftTür00.
+
+
+LiftTür01 is an unopenable closed door with printed name "Fahrstuhl Tür".  
+	South of FahrstuhlOG is the LiftTür01.
+	North of FlurOGO04 is the LiftTür01.
+
+LiftTür02 is an unopenable closed door with printed name "Fahrstuhl Tür". 
+	South of FahrstuhlEG is the LiftTür02.
+	North of FlurEGO03 is the LiftTür02.
+
+	
+
+
