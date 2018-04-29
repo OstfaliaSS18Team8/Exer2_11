@@ -16,7 +16,7 @@ Draußen is a region.
 
 [>>>>ERDGESCHOSS OST<<<<]
 
-
+You are in the Gehweg.
 
 Torbogen is a room in Draußen.
 
@@ -1550,9 +1550,6 @@ Section Ball
 A ball is a thing with the description "Ein Ball.  Der Ball kann in all Himmelsrichtungen getreten werden. Der Ball rollt daraufhin, wenn möglich, einen Raum weiter. Nutze push ball n/e/s/w."
 The ball is in the Raum136. "Du siehst einen Ball"
 
-[-------------]
-You are in the Raum136.
-[-------------]
 
 Understand "push ball n/e/s/w/north/east/south/west" as "[ball-push-dir]".
 
