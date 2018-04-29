@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6M62
 
-status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\andre\Documents\GitHub\Exer2_11\Exer 11+2 Team8.inform\Build\StatusCblorb.html"
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\Karl\Google Drive\Siemens & Ostfalia\Semester & Aufgaben\SS18\CS-Kompetenzen\git repos\Exer2_11\Exer 11+2 Team8.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\Users\andre\Documents\GitHub\Exer2_11\Exer 11+2 Team8.inform"
-release to "C:\Users\andre\Documents\GitHub\Exer2_11\Exer 11+2 Team8.materials\Release"
+project folder "C:\Users\Karl\Google Drive\Siemens & Ostfalia\Semester & Aufgaben\SS18\CS-Kompetenzen\git repos\Exer2_11\Exer 11+2 Team8.inform"
+release to "C:\Users\Karl\Google Drive\Siemens & Ostfalia\Semester & Aufgaben\SS18\CS-Kompetenzen\git repos\Exer2_11\Exer 11+2 Team8.materials\Release"
 
 ! Blorb instructions
 
 storyfile leafname "EXER_2+11.gblorb"
-storyfile "C:\Users\andre\Documents\GitHub\Exer2_11\Exer 11+2 Team8.inform\Build\output.ulx" include
-ifiction "C:\Users\andre\Documents\GitHub\Exer2_11\Exer 11+2 Team8.inform\Metadata.iFiction" include
+storyfile "C:\Users\Karl\Google Drive\Siemens & Ostfalia\Semester & Aufgaben\SS18\CS-Kompetenzen\git repos\Exer2_11\Exer 11+2 Team8.inform\Build\output.ulx" include
+ifiction "C:\Users\Karl\Google Drive\Siemens & Ostfalia\Semester & Aufgaben\SS18\CS-Kompetenzen\git repos\Exer2_11\Exer 11+2 Team8.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 
